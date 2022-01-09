@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet"  href="projects.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Personal portfolio | Justin Mathais</title>
+    <link rel="icon" type="image/png" href="img/title-logo.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX21V6B4KM"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WX21V6B4KM');
+    </script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#home" class="nav__logo">Justin</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__items"><a href="#frontend" class="nav__link">frontend</a></li>
+                    <li class="nav__items"><a href="#backend" class="nav__link">backend</a></li>
+                    <li class="nav__items"><a href="index.html" class="nav__link">back to main page</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="frontend" id="frontend">
+            <div class="frontend__container bd-grid">
+                <div class="frontend__data">
+                    <h1 class="frontend__title">My Projects:</h1>
+                    <h2 class="frontend__subtitle">Frontend:</h2>
+                    <table class="frontend__content">
+                        <tr>
+                            <td class="sno">1.</td>
+                            <td>Simple Calulator</td>
+                            <td> <a href="https://github.com/mathaisjustin/Simple-Calculator-JS-Project" class="button frontend__button">Source Code:</a></td>
+                            <td> <a href="https://mathaisjustin.github.io/Simple-Calculator-JS-Project/" class="button home__button">Preview:</a></td>
+                        </tr>
+                        <tr>
+                            <td class="sno">2.</td>
+                            <td>Pricing Component</td>
+                            <td> <a href="https://github.com/mathaisjustin/Pricing-Component" class="button frontend__button">Source Code:</a></td>
+                            <td> <a href="https://mathaisjustin.github.io/Pricing-Component/" class="button frontend__button">Preview:</a></td>
+                        </tr>
+                        <tr>
+                            <td class="sno">3.</td>
+                            <td>Simple Calulator</td>
+                            <td> <a href="#" class="button frontend__button">Source Code:</a></td>
+                            <td> <a href="#" class="button frontend__button">Preview:</a></td>
+                        </tr>
+                        <tr>
+                            <td class="sno">4.</td>
+                            <td>Simple Calulator</td> 
+                            <td> <a href="#" class="button frontend__button">Source Code:</a></td>
+                            <td> <a href="#" class="button frontend__button">Preview:</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+      <br>
+      <br>
+        <section class="backend" id="backend">
+            <div class="backend__container bd-grid">
+                <div class="backend__data">
+                    <h1 class="backend__title">My Projects:</h1>
+                    <h2 class="backend__subtitle">Backend:</h2>
+                    <table class="backend__content">
+                        <tr>
+                            <td class="sno">1.</td>
+                            <td>Simple Calulator</td>
+                            <td> <a href="#" class="button backend__button">Source Code:</a></td>
+                            <td> <a href="#" class="button backend__button">Preview:</a></td>
+                        </tr>
+                        <tr>
+                            <td class="sno">2.</td>
+                            <td>Simple Calulator</td>
+                            <td> <a href="#" class="button backend__button">Source Code:</a></td>
+                            <td> <a href="#" class="button backend__button">Preview:</a></td>
+                        </tr>
+                        <tr>
+                            <td class="sno">3.</td>
+                            <td>Simple Calulator</td>
+                            <td> <a href="#" class="button backend__button">Source Code:</a></td>
+                            <td> <a href="#" class="button backend__button">Preview:</a></td>
+                        </tr>
+                        <tr>
+                            <td class="sno">4.</td>
+                            <td>Simple Calulator</td>
+                            <td> <a href="#" class="button backend__button">Source Code:</a></td>
+                            <td> <a href="#" class="button backend__button">Preview:</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Justin Mathais</h1>
+            <p class="footer__description">I am Justin Mathais and this is my personal website, consult me here.</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved by Justin Mathais - 2021</p>
+        </div>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="projects.js"></script>
+</body>
+</html>
